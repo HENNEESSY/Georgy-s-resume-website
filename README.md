@@ -1,6 +1,6 @@
 # Georgiy Kuzevanov | AI-Native Product Architect
 
-[![Live Demo](https://img.shields.io/badge/demo-live-accent?style=for-the-badge&logo=vercel)](https://bit.ly/3Qdte0Y)
+[![Live Demo](https://img.shields.io/badge/demo-live-accent?style=for-the-badge&logo=netlify)](https://kuzevanov-ai.netlify.app/)
 [![Telegram](https://img.shields.io/badge/Contact-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/KuzGeorgiy)
 
 Профессиональное портфолио архитектора AI-продуктов, специализирующегося на экстремально быстрых запусках (MVP) и глубокой интеграции нейросетей в бизнес-процессы.
@@ -48,6 +48,6 @@
 ### Contact Me
 - **Telegram:** [@KuzGeorgiy](https://t.me/KuzGeorgiy)
 - **GitHub:** [HENNEESSY](https://github.com/HENNEESSY)
-- **Portfolio:** [bit.ly/3Qdte0Y](https://bit.ly/3Qdte0Y)
+- **Portfolio:** [kuzevanov-ai.netlify.app](https://kuzevanov-ai.netlify.app/)
 
 © 2026 Georgiy Kuzevanov. Digital Sovereignty & AI Innovation.
