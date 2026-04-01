@@ -1,53 +1,37 @@
-# Georgiy Kuzevanov | AI-Native Product Architect
+# Georgiy Kuzevanov | AI-Native Product Architect 🧠
 
-[![Live Demo](https://img.shields.io/badge/demo-live-accent?style=for-the-badge&logo=netlify)](https://kuzevanov-ai.netlify.app/)
-[![Telegram](https://img.shields.io/badge/Contact-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/KuzGeorgiy)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-LIVE-accent?style=for-the-badge&logo=google-chrome)](https://henneessy.github.io/cv/)
+[![Telegram](https://img.shields.io/badge/TELEGRAM-CONTACT-blue?style=for-the-badge&logo=telegram)](https://t.me/KuzGeorgiy)
 
-Профессиональное портфолио архитектора AI-продуктов, специализирующегося на экстремально быстрых запусках (MVP) и глубокой интеграции нейросетей в бизнес-процессы.
+### 🚀 Обо мне
 
-## 🚀 Key Philosophy
+Я проектирую интеллектуальные системы, которые строят сами себя. Специализируюсь на экстремально быстрых запусках (MVP) и глубокой интеграции AI в бизнес.
 
-Вместо написания кода я проектирую **интеллектуальные системы**, которые строят сами себя. Мой подход базируется на трех столпах:
-- **Speed:** Запуск MVP в 3-5 раз быстрее традиционных методов за счет AI-Native разработки.
-- **Privacy:** Фокус на локальных LLM (Ollama) и защищенных протоколах передачи данных.
-- **Orchestration:** Глубокая интеграция множества моделей (Gemini, Claude, DeepSeek) в единую экосистему.
+- **Speed:** Запуск MVP в 3-5 раз быстрее за счет AI-Native разработки.
+- **Privacy:** Фокус на локальных LLM (Ollama) и защищенных протоколах (VLESS+REALITY).
+- **Orchestration:** Глубокая интеграция Gemini, Claude и DeepSeek.
 
-## 🛠 Technical Stack
+### 🛠 Стек
 
-### AI & Machine Learning
-- **Orchestration:** LangChain, OpenAI SDK, Google AI Studio.
-- **Local LLMs:** Ollama (Llama 3, Mistral, DeepSeek-Coder).
-- **Agents:** Разработка автономных AI-агентов для автоматизации рабочих процессов.
-
-### Frontend & UI/UX
-- **Framework:** React 18+ with Vite.
-- **Styling:** Tailwind CSS (Utility-first approach).
-- **Animations:** Framer Motion (Motion layout & transitions).
-- **Design:** Editorial/Brutalist minimalist aesthetic.
-
-### Infrastructure & Security
-- **Privacy:** VLESS + REALITY (Digital Sovereignty).
+- **AI:** Ollama, LangChain, OpenAI SDK, Google AI Studio.
 - **Backend:** Python (FastAPI), Node.js (Express).
-- **DevOps:** Docker, Linux, CI/CD with Vercel/GitHub Actions.
+- **Infrastructure:** Docker, Linux, VLESS + REALITY.
+- **Frontend:** React, Tailwind CSS, Framer Motion.
+- **Tools:** Claude Code, Cursor, Figma, Canva, Lovable.
 
-## 🧠 Workflow
+### 📂 Избранные проекты
 
-Этот проект был создан с использованием **AI-Native** методологии:
-1. **Claude Code & Cursor:** Экстремально быстрая итеративная разработка.
-2. **Multi-model validation:** Проверка архитектурных решений через Gemini 1.5 Pro и Claude 3.5 Sonnet.
-3. **Automated Refactoring:** Постоянная оптимизация кодовой базы с помощью AI-агентов.
-
-## 📂 Selected Projects
-
-- **BLACKVENUS:** Премиальный VPN-сервис с полной автоматизацией в Telegram.
-- **VENUSAI:** Приватный интерфейс для взаимодействия с локальными LLM через Ollama.
-- **ECO-PLATFORM:** Интеллектуальная платформа для автоматизации бизнес-процессов.
+- **BLACKVENUS** — Премиальный VPN-сервис с полной автоматизацией в Telegram.
+- **VENUSAI** — Приватный интерфейс для взаимодействия с локальными LLM через Ollama.
+- **ECO-PLATFORM** — Интеллектуальная платформа для автоматизации бизнес-процессов.
+- **MY ASSISTANT** — Персональный AI-агент в Telegram (Gmail, Calendar, Weather).
+- **REELS FACTORY** — AI-бот для создания виральных видео из длинных роликов.
 
 ---
 
 ### Contact Me
 - **Telegram:** [@KuzGeorgiy](https://t.me/KuzGeorgiy)
 - **GitHub:** [HENNEESSY](https://github.com/HENNEESSY)
-- **Portfolio:** [kuzevanov-ai.netlify.app](https://kuzevanov-ai.netlify.app/)
+- **Portfolio:** [henneessy.github.io/cv/](https://henneessy.github.io/cv/)
 
 © 2026 Georgiy Kuzevanov. Digital Sovereignty & AI Innovation.
