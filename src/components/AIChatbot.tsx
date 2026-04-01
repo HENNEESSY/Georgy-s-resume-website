@@ -73,7 +73,7 @@ export default function AIChatbot() {
       setMessages(prev => [...prev, { role: "model", text: aiText }]);
     } catch (error) {
       console.error("Chat Error:", error);
-      setMessages(prev => [...prev, { role: "model", text: "Ошибка подключения к AI. Проверьте API ключ." }]);
+      setMessages(prev => [...prev, { role: "model", text: "Ошибка подключения к AI. Проверьте API ключ или включите VPN." }]);
     } finally {
       setIsLoading(false);
     }
