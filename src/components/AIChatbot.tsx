@@ -53,8 +53,11 @@ export default function AIChatbot() {
     setIsLoading(true);
 
     try {
-      // Используем переменную окружения или твой ключ напрямую для надежности
-      const apiKey = import.meta.env.VITE_GEMINI_API_KEY || "AIzaSyAiImlf8v5u3NmuuxzBfr8r3ceN5zokPhk";
+      // Используем переменную окружения, определенную в vite.config.ts
+      const apiKey = process.env.GEMINI_API_KEY;
+      if (!apiKey) {
+        throw new Error("API key is missing. Please set GEMINI_API_KEY in GitHub Secrets.");
+      }
       const ai = new GoogleGenAI({ apiKey });
       
       const response = await ai.models.generateContent({
