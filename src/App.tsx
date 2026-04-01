@@ -109,7 +109,7 @@ export default function App() {
                 <div className="text-[10px] uppercase tracking-widest border border-border px-3 py-1 rounded-full">MVP Specialist</div>
                 <div className="text-[10px] uppercase tracking-widest border border-border px-3 py-1 rounded-full">Automation</div>
                 <a 
-                  href="/georgiy_cv.pdf" 
+                  href="georgiy_cv.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[10px] uppercase tracking-widest bg-accent text-black px-4 py-1 rounded-full font-bold flex items-center gap-2 hover:scale-105 transition-transform"
