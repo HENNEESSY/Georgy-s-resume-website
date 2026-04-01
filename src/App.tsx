@@ -12,6 +12,7 @@ import {
   MessageSquare
 } from "lucide-react";
 import { useRef } from "react";
+import AIChatbot from "./components/AIChatbot";
 
 const PROJECTS = [
   {
@@ -412,6 +413,7 @@ export default function App() {
           Digital Sovereignty
         </div>
       </footer>
+      <AIChatbot />
     </div>
   );
 }
