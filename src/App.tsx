@@ -9,8 +9,7 @@ import {
   Zap,
   Shield,
   Bot,
-  MessageSquare,
-  FileDown
+  MessageSquare
 } from "lucide-react";
 import { useRef } from "react";
 import AIChatbot from "./components/AIChatbot";
@@ -81,7 +80,7 @@ export default function App() {
           animate={{ opacity: 1, x: 0 }}
           className="text-xs font-display tracking-[0.2em] uppercase"
         >
-          Georgiy / 2026
+          Georgiy Kuzevanov / 2026
         </motion.div>
         <motion.div 
           initial={{ opacity: 0, x: 20 }}
@@ -124,14 +123,6 @@ export default function App() {
               <div className="flex flex-wrap gap-4">
                 <div className="text-[10px] uppercase tracking-widest border border-border px-3 py-1 rounded-full">MVP Specialist</div>
                 <div className="text-[10px] uppercase tracking-widest border border-border px-3 py-1 rounded-full">Automation</div>
-                <a 
-                  href={`${import.meta.env.BASE_URL}georgiy_cv.pdf`} 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[10px] uppercase tracking-widest bg-accent text-black px-4 py-1 rounded-full font-bold flex items-center gap-2 hover:scale-105 transition-transform"
-                >
-                  Скачать резюме <FileDown size={12} />
-                </a>
               </div>
             </motion.div>
             
@@ -443,7 +434,7 @@ export default function App() {
       {/* Footer */}
       <footer className="px-6 py-12 md:px-12 border-t border-border flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="text-[10px] uppercase tracking-[0.3em] text-muted">
-          © 2026 Georgiy
+          © 2026 Georgiy Kuzevanov
         </div>
         <div className="flex gap-8">
           <div className="text-[10px] uppercase tracking-[0.3em] text-muted">

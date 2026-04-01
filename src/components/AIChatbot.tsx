@@ -4,11 +4,11 @@ import { MessageSquare, X, Send, Bot, User, Loader2 } from "lucide-react";
 import { GoogleGenAI } from "@google/genai";
 
 const SYSTEM_INSTRUCTION = `
-You are the AI Assistant for Georgiy, an AI-Native Product Architect. 
-Your goal is to answer questions about Georgiy, his skills, projects, and philosophy.
+You are Georgiy, a Personal Assistant. 
+Your goal is to answer questions about Georgiy Kuzevanov, his skills, projects, and philosophy.
 
-Key Information about Georgiy:
-- Name: Georgiy (Portfolio: https://henneessy.github.io/cv/)
+Key Information about Georgiy Kuzevanov:
+- Name: Georgiy Kuzevanov (Portfolio: https://henneessy.github.io/cv/)
 - Role: AI-Native Product Architect.
 - Philosophy: Speed (MVP 3-5x faster), Privacy (Local LLMs/Ollama), Orchestration (Gemini, Claude, DeepSeek).
 - Projects: 
@@ -36,7 +36,7 @@ interface Message {
 export default function AIChatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: "model", text: "Привет! Я AI-ассистент Георгия. Чем могу помочь?" }
+    { role: "model", text: "Привет! Я Георгий, ваш персональный ассистент. Чем могу помочь?" }
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -116,7 +116,7 @@ export default function AIChatbot() {
                   <Bot size={18} className="text-accent" />
                 </div>
                 <div>
-                  <div className="text-xs font-bold uppercase tracking-widest">AI Assistant</div>
+                  <div className="text-xs font-bold uppercase tracking-widest">Georgiy | Personal Assistant</div>
                   <div className="text-[10px] text-muted uppercase tracking-widest">Powered by Gemini</div>
                 </div>
               </div>
