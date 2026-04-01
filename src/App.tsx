@@ -81,7 +81,7 @@ export default function App() {
           animate={{ opacity: 1, x: 0 }}
           className="text-xs font-display tracking-[0.2em] uppercase"
         >
-          Georgiy Kuzevanov / 2026
+          Georgiy / 2026
         </motion.div>
         <motion.div 
           initial={{ opacity: 0, x: 20 }}
@@ -443,7 +443,7 @@ export default function App() {
       {/* Footer */}
       <footer className="px-6 py-12 md:px-12 border-t border-border flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="text-[10px] uppercase tracking-[0.3em] text-muted">
-          © 2026 Georgiy Kuzevanov
+          © 2026 Georgiy
         </div>
         <div className="flex gap-8">
           <div className="text-[10px] uppercase tracking-[0.3em] text-muted">
