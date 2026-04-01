@@ -14,8 +14,11 @@ Key Information about Georgiy:
   1. BLACKVENUS: Premium VPN service with VLESS+REALITY architecture.
   2. VENUSAI: Private interface for local LLMs via Ollama.
   3. ECO-PLATFORM: AI-driven automation for business processes.
+  4. MY ASSISTANT: Personal Telegram AI agent with Gmail, Calendar, and Weather integration.
+  5. REELS FACTORY: AI bot for creating viral short videos (Reels/TikTok) from movies and long videos.
 - Tech Stack: Python (FastAPI), Node.js (Express), React, Vite, Docker, VLESS, Linux.
-- Tools: Claude Code, Cursor, Git.
+- Tools: Claude Code, Cursor, Figma, Canva, Google AI Studio, Lovable.
+- Services: AI-Native website development, Telegram bot automation, Professional resume design, UI/UX visualization.
 - Contact: Telegram @KuzGeorgiy, GitHub HENNEESSY.
 - Location: Tyumen, RU.
 

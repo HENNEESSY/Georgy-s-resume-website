@@ -39,6 +39,22 @@ const PROJECTS = [
     description: "Интеллектуальная платформа для автоматизации бизнес-процессов с использованием мультимодальных нейросетей. Оркестрация Claude, Gemini и DeepSeek.",
     tags: ["AI Agents", "Automation", "Workflow"],
     link: "https://t.me/KuzGeorgiy"
+  },
+  {
+    id: "04",
+    title: "MY ASSISTANT",
+    category: "PERSONAL AI AGENT",
+    description: "Персональный ассистент в Telegram с глубокой интеграцией сервисов: Gmail, Яндекс.Почта, Календарь, Погода и генерация контента.",
+    tags: ["Telegram Bot", "API Integration", "AI Assistant"],
+    link: "https://t.me/KuzGeorgiy"
+  },
+  {
+    id: "05",
+    title: "REELS FACTORY",
+    category: "AI VIDEO CONTENT",
+    description: "Интеллектуальный бот для автоматического создания виральных коротких видео (Reels/TikTok) из длинных роликов и фильмов. Динамические субтитры и автопубликация.",
+    tags: ["AI Video", "Automation", "Claude Code", "Content"],
+    link: "https://t.me/KuzGeorgiy"
   }
 ];
 
@@ -109,12 +125,12 @@ export default function App() {
                 <div className="text-[10px] uppercase tracking-widest border border-border px-3 py-1 rounded-full">MVP Specialist</div>
                 <div className="text-[10px] uppercase tracking-widest border border-border px-3 py-1 rounded-full">Automation</div>
                 <a 
-                  href="georgiy_cv.pdf" 
+                  href={`${import.meta.env.BASE_URL}georgiy_cv.pdf`} 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[10px] uppercase tracking-widest bg-accent text-black px-4 py-1 rounded-full font-bold flex items-center gap-2 hover:scale-105 transition-transform"
                 >
-                  View CV <FileDown size={12} />
+                  Скачать резюме <FileDown size={12} />
                 </a>
               </div>
             </motion.div>
@@ -180,6 +196,22 @@ export default function App() {
                     <ul className="space-y-4">
                       <li className="flex items-start gap-3">
                         <div className="w-1 h-1 rounded-full bg-accent mt-2" />
+                        <span className="text-sm text-muted">Создание персональных AI-помощников в Telegram для автоматизации рутины.</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <div className="w-1 h-1 rounded-full bg-accent mt-2" />
+                        <span className="text-sm text-muted">Разработка AI-Native сайтов и веб-приложений через Google AI Studio.</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <div className="w-1 h-1 rounded-full bg-accent mt-2" />
+                        <span className="text-sm text-muted">Дизайн профессиональных резюме и портфолио в Canva и Figma.</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <div className="w-1 h-1 rounded-full bg-accent mt-2" />
+                        <span className="text-sm text-muted">Создание визуалов и интерфейсов в Lovable.</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <div className="w-1 h-1 rounded-full bg-accent mt-2" />
                         <span className="text-sm text-muted">Разработка локальных моделей нейросетей с интеграцией в Ollama.</span>
                       </li>
                       <li className="flex items-start gap-3">
@@ -228,7 +260,7 @@ export default function App() {
                     </div>
                     <div>
                       <div className="text-[10px] uppercase tracking-widest text-muted mb-2">Tools</div>
-                      <div className="text-sm font-display">Claude Code / Cursor / Git</div>
+                      <div className="text-sm font-display">Claude Code / Cursor / Figma / Canva / Lovable</div>
                     </div>
                   </div>
                 </div>
@@ -328,7 +360,7 @@ export default function App() {
           <div className="flex justify-between items-end mb-24">
             <h2 className="text-huge font-bold">WORKS</h2>
             <div className="text-right text-xs font-display text-muted uppercase tracking-widest mb-4">
-              Selected Projects / 03
+              Selected Projects / 05
             </div>
           </div>
 
