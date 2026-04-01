@@ -53,7 +53,10 @@ export default function AIChatbot() {
     setIsLoading(true);
 
     try {
-      const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
+      // Используем переменную окружения или твой ключ напрямую для надежности
+      const apiKey = import.meta.env.VITE_GEMINI_API_KEY || "AIzaSyAiImlf8v5u3NmuuxzBfr8r3ceN5zokPhk";
+      const ai = new GoogleGenAI({ apiKey });
+      
       const response = await ai.models.generateContent({
         model: "gemini-3-flash-preview",
         contents: messages.concat({ role: "user", text: userMessage }).map(m => ({
