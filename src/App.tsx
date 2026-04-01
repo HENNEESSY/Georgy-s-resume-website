@@ -9,7 +9,8 @@ import {
   Zap,
   Shield,
   Bot,
-  MessageSquare
+  MessageSquare,
+  FileDown
 } from "lucide-react";
 import { useRef } from "react";
 import AIChatbot from "./components/AIChatbot";
@@ -104,9 +105,16 @@ export default function App() {
               <p className="text-muted text-lg leading-relaxed mb-8">
                 Проектирую и запускаю IT-продукты со скоростью мысли. Использую Claude Code и Cursor для создания масштабируемых систем и автоматизации бизнеса.
               </p>
-              <div className="flex gap-4">
+              <div className="flex flex-wrap gap-4">
                 <div className="text-[10px] uppercase tracking-widest border border-border px-3 py-1 rounded-full">MVP Specialist</div>
                 <div className="text-[10px] uppercase tracking-widest border border-border px-3 py-1 rounded-full">Automation</div>
+                <a 
+                  href="/resume.pdf" 
+                  download 
+                  className="text-[10px] uppercase tracking-widest bg-accent text-black px-4 py-1 rounded-full font-bold flex items-center gap-2 hover:scale-105 transition-transform"
+                >
+                  Download CV <FileDown size={12} />
+                </a>
               </div>
             </motion.div>
             
