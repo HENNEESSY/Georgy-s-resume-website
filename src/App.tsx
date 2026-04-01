@@ -110,17 +110,11 @@ export default function App() {
                 <div className="text-[10px] uppercase tracking-widest border border-border px-3 py-1 rounded-full">Automation</div>
                 <a 
                   href="/cv.pdf" 
-                  download 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-[10px] uppercase tracking-widest bg-accent text-black px-4 py-1 rounded-full font-bold flex items-center gap-2 hover:scale-105 transition-transform"
                 >
-                  Download CV <FileDown size={12} />
-                </a>
-                <a 
-                  href="/test.pdf" 
-                  download 
-                  className="text-[10px] uppercase tracking-widest border border-border px-4 py-1 rounded-full font-bold flex items-center gap-2 hover:scale-105 transition-transform"
-                >
-                  Test PDF <FileDown size={12} />
+                  View CV <FileDown size={12} />
                 </a>
               </div>
             </motion.div>
